@@ -30,6 +30,10 @@ app.get('/courses', (req , res) => {
         {
             id : 4,
             courseName : "UI/UX"
+        },
+        {
+            id : 5,
+            courseName : "DS"
         }
     ]
     res.send(courses);
